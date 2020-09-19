@@ -1,0 +1,5 @@
+paginate : 1
+paginate_path : "/blog/page:num"
+url: "https://py-contributors.github.io/" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
