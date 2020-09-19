@@ -1,6 +1,8 @@
 ---
-layout : default
+layout : blog
 title : How to Participate in HacktoberFest 2020
+subtitle : During the entire month of October 2020, all you have to do is contribute to any open source projects and open at least 4 pull requests. Yes, any project and any kind of contributions.
+repository : <https://github.com/Py-Contributors/Hacktoberfest-2020/>
 ---
 # Hacktoberfest-2020
 
@@ -8,7 +10,9 @@ Hacktoberfest® is open to everyone in our global community. Whether you’re a 
 
 Enter Your email on Webiste to win T-shirt.
 
-Website - <https://hacktoberfest.digitalocean.com/>
+**Website** - <https://hacktoberfest.digitalocean.com/>
+
+**Repository** - {{page.repository}}
 
 ## How to Participate
 

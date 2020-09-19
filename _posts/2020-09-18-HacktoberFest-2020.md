@@ -1,6 +1,7 @@
 ---
-layout : default
+layout : blog
 title : HacktoberFest 2020
+subtitle : Hacktoberfest is a month long virtual festival event to celebrate open source contributions presented by Digital Ocean and DEV. It is the easiest way to get into open source!
 ---
 
 # HacktoberFest-2020
@@ -40,13 +41,14 @@ Contributing to open-source is easy.
 - Upload your program written in Python/C++/Python in respective folder.
 - push your work and Crete a PR.
 
-Check [How to Participate for details](/HOW_TO_PARTICIPATE.MD)
+Check [How to Participate for details]([/HOW_TO_PARTICIPATE.MD](https://github.com/Py-Contributors/Hacktoberfest-2020/blob/master/HOW_TO_PARTICIPATE.MD))
 
 ## What if my pull requests aren’t accepted?
 
 Even if your pull requests aren’t accepted, they should still count toward your 4 pull requests necessary to earn the shirt. The only exception would be if the project maintainer chooses to mark your pull request as “invalid”. They may do this if they perceive your pull request to be low effort, or if it contains plagiarism.
 
 ## What kinds of pull requests count toward earning the Hacktoberfest shirt?
+
 Any pull request made to a public repo on GitHub will count. The pull request must contain commits you personally made yourself — not automated commits from bots.
 
 You can contribute to any open source project hosted on Github.com and contribute anything between October 1 to October 31 midnight in 2020. You will find plenty of issues labeled with hacktoberfest or good-first-issue etc on Github. These will be the simple ones most probably and easy to fix.
