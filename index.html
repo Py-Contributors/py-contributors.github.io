@@ -1,68 +1,25 @@
 ---
 layout : default
 title : Home
+active : home
 ---
 
 <div class="container">
-	<h1 class="text-center text-info">Welcome to PyContributors</h1>
-	<h4 class="text-center text-primary">A open Source community for Machine Learning and Artificial intelligence.</h4>
+	<h1 class="text-center text-white">Welcome to PyContributors</h1>
+	<h4 class="text-center text-white">A open Source community for Machine Learning and Artificial intelligence.</h4>
 </div><!-- /.blurb -->
 <hr>
 
 <div class="row">
 	<div class="col-md-8">		
-
-		<div class="row"> <!-- Project row div start-->
-			<div class="col-md-6"><!--Project div start-->
-				<!-- Card -->
-				<div class="card shadow">
-				
-				  <!-- Card image -->
-				  <div class="view overlay">
-					<img class="card-img-top" src="/assets/img/project image/hacktoberfest.jpeg"
-					  alt="Card image cap">
-					<a href="https://github.com/Py-Contributors/Hacktoberfest-2020">
-					  <div class="mask rgba-white-slight"></div>
-					</a>
-				  </div>				
-				  <!-- Card content -->
-				  <div class="card-body">				
-					<!-- Title -->
-					<h4 class="card-title">Hacktoberfest-2020</h4>
-					<!-- Text -->
-					<p class="card-text">Hacktoberfest is a month long virtual festival event to celebrate open source contributions.easiest way to get into open source!</p>
-					<!-- Button -->
-					<p class="text-weight-bold"> Maintainer :- <a href="https://github.com/">Deepak Raj</a></p>
-					<a href="https://github.com/Py-Contributors/Hacktoberfest-2020" class="btn btn-primary">Fork On Github</a>				
-				  </div>				
-				</div>	<!-- Card -->			
-			</div> <!-- project div colsed-->
-
-			<div class="col-md-6"><!--Project Div start-->
-				<!-- Card -->
-				<div class="card shadow">
-					<!-- Card image -->
-					<div class="view overlay">
-					<img class="card-img-top" height="200px" src="/assets/img/project image/student_performance_prediction.jpg"
-						alt="Card image cap">
-					<a href="https://github.com/Py-Contributors/Student-s-Perform-Prediction">
-						<div class="mask rgba-white-slight"></div>
-					</a>
-					</div>				
-					<!-- Card content -->
-					<div class="card-body">				
-					<!-- Title -->
-					<h4 class="card-title">Student Performance Prediction</h4>
-					<!-- Text -->
-					<p class="card-text">Students’ Performance Prediction Using Machine Learning Approach</p>
-					<!-- Button -->
-					<p class="text-weight-bold"> Maintainer :- <a href="https://github.com/shubham5351">Shubham Pawar</a></p>
-					<a href="https://github.com/Py-Contributors/Student-s-Perform-Prediction" class="btn btn-primary">Fork On Github</a>				
-					</div>				
-				</div><!-- Card -->
-			</div> <!--Project div close-->
-		</div> <!-- project Row Div Close-->
-
+		<div class="row">
+			<div class="col-md-6">
+				{% include_relative components/articles/hacktoberfest.html %}
+			</div>
+			<div class="col-md-6">
+				{% include_relative components/articles/studentperformance.html %}
+			</div>		
+		</div>
 	</div> <!--col-md-8 closed-->	
 
 	<div class="col-md-4">				
@@ -72,5 +29,4 @@ title : Home
 			<footer class="blockquote-footer">by <cite title="Source Title">Dave Waters</cite></footer>
 		  </blockquote>		  
 	</div>
-
 </div> <!-- Row closed-->

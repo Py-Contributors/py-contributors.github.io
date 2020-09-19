@@ -6,18 +6,28 @@
   
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>					
-        <li class="nav-item">
-          <a class="nav-link" href="/contributors/index.html">Contributors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/blog/index.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about/index.html">About</a>
-        </li>
-        </ul>				  
+        {% if page.active == "home" %}
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+    {% else %}
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+    {% endif %}
+    
+    {% if page.active == "contributors" %}
+        <li class="nav-item active"><a class="nav-link" href="/contributors/index.html">Contributors</a></li>
+    {% else %}
+        <li class="nav-item"><a class="nav-link" href="/contributors/index.html">Contributors</a></li>
+    {% endif %}
+
+    {% if page.active == "updates" %}
+        <li class="nav-item active"><a class="nav-link" href="/updates/index.html">Updates</a></li>
+    {% else %}
+        <li class="nav-item"><a class="nav-link" href="/updates/index.html">Updates</a></li>
+    {% endif %}
+
+    {% if page.active == "about" %}
+        <li class="nav-item active"><a class="nav-link" href="/about/index.html">About</a></li>
+    {% else %}
+        <li class="nav-item"><a class="nav-link" href="/about/index.html">About</a></li>
+    {% endif %}			  
     </div>
   </nav>

@@ -1,10 +1,30 @@
 ---
 layout : default
 title : Contributors
+active : contributors
 ---
 
 <div class="blurb">
-	<h1 class="text-center">We are Open-Source Contributors</h1><hr>
-	<h4 class="text-center">We are all very different. We were born in different cities, at different times, 
+	<h1 class="text-center text-white">We are Open-Source Contributors</h1><hr>
+	<h4 class="text-center text-white">We are all very different. We were born in different cities, at different times, 
 		we love different music, food, movies. But we have something that unites us all.</h4>
-</div><!-- /.blurb -->
+</div>
+
+<table class="table table-hover text-white">
+	<thead>
+	  <tr>
+		<th scope="col">Name</th>
+		<th scope="col">Email</th>				
+		<th>Github</th>
+	  </tr>
+	</thead>
+	{% for member in site.data.contributors %}
+	<tbody>
+	  <tr class="table-light">
+		<td class="text-dark">{{member.name}}</td>	
+		<td class="text-dark">{{member.email}}</td>
+		<td><a href="{{member.github}}">{{member.github}}</a></td>
+	  </tr>
+	</tbody>
+	{% endfor %}
+</table>
