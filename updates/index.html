@@ -5,13 +5,28 @@ active : updates
 ---
 
 <h2 class="text-center text-white">Updates from PyContributors</h2>
+
+<div class="row">
+  <div class="col-md-8">
 {% for post in site.posts %}
-<div class="card shadow">
-  <div class="card-body">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <p class="card-text">{{post.subtitle}}</p>
-    <a href="{{ post.url }}" class="card-link">Read More...</a>
-  </div>
+<!-- Card -->
+<div class="card mt-2 p-2">
+  <h3 class="text-center"> <a href="{{ post.url }}">{{ post.title }}</a></h3>           
+  <p class="text-dark text-center my-2">               
+    <i class="fa fa-calendar"></i>{{post.date}}
+    <i class="fa fa-user mx-1"></i> <a href="{{post.author_profile_link}}" target="_blank" >{{post.author}}</a>                     
+  </p>
+    <img class="img-fluid shadow" style="width: 800px;height: 300px;" src="{{post.image}}" alt="student_performance_prediction">
+  <div class="container mt-1">              
+    <p class="text-dark" style="font-size: 17px">{{post.subtitle}}</p>
+    <a href="{{post.url}}" class="btn btn-primary">Read More...</a>				
+</div>
 </div>
 <hr>
 {% endfor %}
+</div>
+
+<div class="col-md-4">
+
+</div>
+</div> <!--Row Div Close-->
