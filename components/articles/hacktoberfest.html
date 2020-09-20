@@ -1,21 +1,13 @@
 <!-- Card -->
-<div class="card shadow">				
-    <!-- Card image -->
-    <div class="view overlay">
-      <img class="card-img-top" src="/assets/img/project image/hacktoberfest.jpeg"
-        alt="Card image cap">
-      <a href="https://github.com/Py-Contributors/Hacktoberfest-2020">
-        <div class="mask rgba-white-slight"></div>
-      </a>
-    </div>				
-    <!-- Card content -->
-    <div class="card-body">				
-      <!-- Title -->
-      <h4 class="card-title">Hacktoberfest-2020</h4>
-      <!-- Text -->
-      <p class="card-text">Hacktoberfest is a month long virtual festival event to celebrate open source contributions.easiest way to get into open source!</p>
-      <!-- Button -->
-      <p class="text-weight-bold"> Maintainer :- <a href="https://github.com/">Deepak Raj</a></p>
-      <a href="https://github.com/Py-Contributors/Hacktoberfest-2020" class="btn btn-primary">Fork On Github</a>				
-    </div>				
-  </div>	<!-- Card -->			
+<div class="card mt-2 p-2">
+  <h3 class="text-center"> <a href="{{ post.get_absolute_url }}">Hacktoberfest-2020</a></h3>           
+  <p class="text-dark text-center my-2">               
+    <i class="fa fa-calendar"></i>15/09/2020
+    <i class="fa fa-user mx-1"></i> <a href="https://github.com/codeperfectplus" target="_blank" >Deepak Raj</a>                   
+  </p>
+    <img class="img-fluid shadow" style="width: 100%;" src="/assets/img/project image/hacktoberfest.jpeg" alt="{{post.post_title}}">
+  <div class="container mt-1">              
+    <p class="text-dark" style="font-size: 17px">Hacktoberfest is a month long virtual festival event to celebrate open source contributions.easiest way to get into open source!</p>
+    <a href="http://github.com/py-contributors/hacktoberfest-2020/" class="btn btn-primary">Check On Github</a>				
+</div>
+</div>
