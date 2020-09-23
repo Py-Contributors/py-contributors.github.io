@@ -12,6 +12,7 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 .card {
     height: 485px;
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
+	border-radius: .25rem;
 }
 .navbar-brand {
     font-size: 2.3rem !important;
@@ -19,6 +20,7 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 blockquote
 {
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
+	border-radius: .25rem;
 }
 h1,h2,h3,h4,h5
 {
