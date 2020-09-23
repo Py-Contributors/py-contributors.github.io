@@ -45,3 +45,38 @@ background-attachment: fixed !important;
 .navbar-brand {
     font-size: 2.3rem;
 }
+.red {
+  background-color: crimson;
+}
+
+.orange {
+  background-color: #FF9000;
+}
+
+.yellow {
+  background-color: #FFD300;
+}
+
+.green {
+  background-color: #3DCD49;
+}
+
+.blue {
+  background-color: #0089D7;
+}
+
+.purple {
+  background-color: #9E44C4;
+}
+.box {
+  display: flex;
+  width: 85%;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.box-sm {
+  height: 8px;
+  margin: 0;
+  flex-grow: 1;
+}
