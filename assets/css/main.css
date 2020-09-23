@@ -22,3 +22,15 @@ h1,h2,h3,h4,h5
 	font-family: 'Passion One', cursive !important;
 	font-weight:700;
 }
+nav {
+    font-family: 'Passion One', cursive !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.navbar-brand {
+    font-size: 2.3rem;
+}
