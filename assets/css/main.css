@@ -70,13 +70,13 @@ background-attachment: fixed !important;
 }
 .box {
   display: flex;
-  width: 85%;
-  height: 3px;
+  width: 90%;
+  height: 5px;
   margin: 0 auto;
 }
 
 .box-sm {
-  height: 8px;
+  height: 5px;
   margin: 0;
   flex-grow: 1;
 }
