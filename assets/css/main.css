@@ -13,6 +13,9 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
     height: 485px;
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
 }
+.navbar-brand {
+    font-size: 2.3rem;
+}
 blockquote
 {
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
