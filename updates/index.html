@@ -1,32 +1,34 @@
 ---
 layout : default
-title : Sample Blog
+title : Updates
 active : updates
 ---
 
-<h2 class="text-center text-white">Updates from PyContributors</h2>
-
 <div class="row">
   <div class="col-md-8">
-{% for post in site.posts %}
-<!-- Card -->
-<div class="card mt-2 p-2">
-  <h3 class="text-center"> <a href="{{ post.url }}">{{ post.title }}</a></h3>           
-  <p class="text-dark text-center my-2">               
-    <i class="fa fa-calendar"></i>{{post.date}}
-    <i class="fa fa-user mx-1"></i> <a href="{{post.author_profile_link}}" target="_blank" >{{post.author}}</a>                     
-  </p>
-    <img class="img-fluid shadow" style="width: 800px;height: 300px;" src="{{post.image}}" alt="student_performance_prediction">
-  <div class="container mt-1">              
-    <p class="text-dark" style="font-size: 17px">{{post.subtitle}}</p>
-    <a href="{{post.url}}" class="btn btn-primary">Read More...</a>				
-</div>
-</div>
-<hr>
-{% endfor %}
-</div>
+    <div class="bg-white text-dark text-center">
+      <h2 class="bg-dark p-2 text-white txet-center">Open-Source Contribution</h2>
+      <p class="p-1">Hacktoberfest is a monthlong celebration of open source software brought to you by DigitalOcean, Intel, and DEV.
+         Participants in Hacktoberfest make contributions to open source projects on GitHub through pull requests and 
+         earn some swag as a reward for submitting four or more high-quality pull requests during the month of October.
+         Register <a href="https://hacktoberfest.digitalocean.com/">Here</a>
+      </p>
+      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">    
+  </div>
+  </div>
 
-<div class="col-md-4">
-
-</div>
+  <div class="col-md-4">    
+    <div class="text-center" style="width: 18rem;">
+      <div class="card-header bg-dark text-white">
+        Notification
+      </div>
+      <ul class="list-group list-group-flush">
+        {% for post in site.posts %}                
+        <li class="list-group-item"><a class="mt-2" href="{{post.url}}">{{post.title}}</a></li>                
+        {% endfor %}        
+        <li class="list-group-item">Keep an eye out.</li>
+      </ul>
+    </div>
+  </div>
 </div> <!--Row Div Close-->
+
