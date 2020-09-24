@@ -4,27 +4,36 @@ title : Updates
 active : updates
 ---
 
-<div class="row">
+<div class="jumbotron text-dark text-center p-4">
+	<h1><strong>Updates from PyContributors</strong></h1>	
+</div>
+
+<div class="row mb-5">
   <div class="col-md-8">
-    <div class="bg-white text-dark text-center">
+    <div class="bg-white text-dark text-center bdrRadius">
       <h2 class="bg-dark p-2 text-white txet-center">Open-Source Contribution</h2>
-      <p class="p-1">Hacktoberfest is a monthlong celebration of open source software brought to you by DigitalOcean, Intel, and DEV.
+		<div class="card-body">
+		<p class="p-1">Hacktoberfest is a monthlong celebration of open source software brought to you by DigitalOcean, Intel, and DEV.
          Participants in Hacktoberfest make contributions to open source projects on GitHub through pull requests and 
          earn some swag as a reward for submitting four or more high-quality pull requests during the month of October.
          Register <a href="https://hacktoberfest.digitalocean.com/">Here</a>
       </p>
-      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">    
+      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">	
+		</div>    
   </div>
   </div>
 
   <div class="col-md-4">    
-    <div class="text-center" style="width: 18rem;">
-      <div class="card-header bg-dark text-white">
-        Notification
+    <div class="text-center bdrRadius" style="width: 18rem;">
+      <div class="card-header bg-dark text-white p-2">
+       <h3 class="mb-0">Notifications</h3> 
       </div>
       <ul class="list-group list-group-flush">
-        {% for post in site.posts %}                
-        <li class="list-group-item"><a class="mt-2" href="{{post.url}}">{{post.title}}</a></li>                
+        {% for post in site.posts %}      
+		  <marquee>
+		  <li class="list-group-item"><a class="mt-2" href="{{post.url}}">{{post.title}}</a></li> 
+		  </marquee>
+                       
         {% endfor %}        
         <li class="list-group-item">Keep an eye out.</li>
       </ul>
