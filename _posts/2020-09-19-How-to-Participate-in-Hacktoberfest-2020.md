@@ -24,9 +24,9 @@ Register on the webiste and make 4 Pull Requests (PR's) to win  a T-shirt.
 
    You can **clone** the repository in your local pc with use of **[Github-Desktop](https://desktop.github.com/)** application or for your [Terminal/bash](https://git-scm.com/downloads).
 
-  #### For **Terminal** -
+  **For Terminal** -
    ```bash
-   git clone <url_name>
+   git clone <url_name>  
    ```
 
    * [Cloning Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
@@ -49,7 +49,7 @@ Voila, You have Contributed to open-source 😋.
 
 If you are stuck somewhere use Stackoverflow, Discord or simply Google it.
 
-** And remember, everyone is a beginner when they start a new thing and they face a lot of issues. But keep trying and don't give up, that's what transforms a beginner into a pro 😄. **
+**And remember, everyone is a beginner when they start a new thing and they face a lot of issues. But keep trying and don't give up, that's what transforms a beginner into a pro 😄.**
 
 #### For queries mail us at:
 - [pycontributors@gmail.com](mailto:pycontributors@gmail.com)
