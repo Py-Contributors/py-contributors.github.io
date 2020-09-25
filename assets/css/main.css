@@ -5,6 +5,40 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 	font-family: 'Oswald', sans-serif !important;
 	font-weight:400;
    }
+.nav-item a::before 
+{
+	content: '';
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 3px;
+	background-color: white;
+	transform: scalex(0);
+	transition: all 0.3s;
+	transform-origin:left;
+}
+.nav-item a:hover:before
+{
+	transform: scalex(1);
+}
+.nav-item a::before 
+{
+	content: '';
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height: 3px;
+	background-color: white;
+	transform: scalex(0);
+	transition: all 0.3s;
+	transform-origin:right;
+}
+.nav-item a:hover:after
+{
+	transform: scalex(1);
+}
 .card-img-top
 {
 	height:230px;
