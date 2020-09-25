@@ -140,18 +140,22 @@ background-attachment: fixed !important;
   flex-grow: 1;
 }
 @media screen and (max-width: 450px) {
-    .brandShow {
-      display:none;
-    }
 	.navbar-brand
 	{
 		margin-right:0;
+		font-size: 2rem !important;
 	}
 }
-@media screen and (min-width: 768px) and (max-width: 990px)
+@media screen and (max-width: 990px)
+{
+	.brandShow {
+      display:none;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 990px)
 {
 	.navbar-header
 	{
-		margin-left: 15rem;
+		margin-left: 50&;
 	}
 }
