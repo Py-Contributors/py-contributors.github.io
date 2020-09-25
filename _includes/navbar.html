@@ -1,12 +1,16 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark">	
-	<div class="d-flex d-none d-sm-block d-md-block d-lg-none">
+<nav class="navbar navbar-dark">	
+	<div class="d-flex d-none d-sm-block d-md-block mx-auto">
 		<div class="navbar-header">
 		  <a class="navbar-brand" href="/"><img src="/assets/img/logo/logo.png" style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py Contributors</a>
 		</div>	
 	</div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+     <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarColor03">
@@ -47,3 +51,15 @@
 		</div>
 	</div>
   </nav>
+
+<script>
+	const menu = document.querySelector('.hamburger');
+const list = document.querySelectorAll('li');
+
+menu.addEventListener('click', () => {
+    list.forEach(item => {
+        item.classList.toggle('active');
+    })
+    menu.classList.toggle('cross');
+})
+</script>
