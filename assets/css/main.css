@@ -191,6 +191,7 @@ background-attachment: fixed !important;
     transform: rotate(45deg) translate(-8px, -8px);
     background-color: white;
 }
+
 ul {
     height: 100%;
 }
@@ -208,7 +209,7 @@ ul li {
     transform: translateX(-100%);
 }
 
-ul li.active {
+ul li.on {
     transform: translateX(0);
 }
 

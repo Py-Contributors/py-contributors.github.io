@@ -1,5 +1,4 @@
-
-<nav class="navbar navbar-dark">	
+	
 	<div class="d-flex d-none d-sm-block d-md-block mx-auto">
 		<div class="navbar-header">
 		  <a class="navbar-brand" href="/"><img src="/assets/img/logo/logo.png" style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py Contributors</a>
@@ -18,15 +17,15 @@
     <!-- <div class="ml-auto mr-4"> -->
       <ul >
         {% if page.active == "home" %}
-        <li class=" active"><a class="nav-link" href="/">Home</a></li>
+        <li class=" active"><a class="" href="/">Home</a></li>
     {% else %}
-        <li class=""><a class="nav-link" href="/">Home</a></li>
+        <li class=""><a class="" href="/">Home</a></li>
     {% endif %}
     
     {% if page.active == "join-us" %}
-        <li class=" active"><a class="nav-link" href="/join-us/index.html">Join Us</a></li>
+        <li class=" active"><a class="" href="/join-us/index.html">Join Us</a></li>
     {% else %}
-        <li class=""><a class="nav-link" href="/join-us/index.html">Join Us</a></li>
+        <li class=""><a class="" href="/join-us/index.html">Join Us</a></li>
     {% endif %}
 		  <!-- </ul> -->
 		  <!-- </div> -->
@@ -37,20 +36,20 @@
          <!-- <ul class="navbar-nav mr-auto ml-4"> -->
 
     {% if page.active == "updates" %}
-        <li class=" active"><a class="nav-link" href="/updates/index.html">Updates</a></li>
+        <li class=" active"><a class="" href="/updates/index.html">Updates</a></li>
     {% else %}
-        <li class=""><a class="nav-link" href="/updates/index.html">Updates</a></li>
+        <li class=""><a class="" href="/updates/index.html">Updates</a></li>
     {% endif %}
 
     {% if page.active == "developers" %}
-        <li class=" active"><a class="nav-link" href="/developers/index.html">Developers</a></li>
+        <li class=" active"><a class="" href="/developers/index.html">Developers</a></li>
     {% else %}
-        <li class=""><a class="nav-link" href="/developers/index.html">Developers</a></li>
+        <li class=""><a class="" href="/developers/index.html">Developers</a></li>
     {% endif %}			  
     </ul>
 		<!-- </div>
 	</div> -->
-  </nav>
+
 
 <script>
 	const menu = document.querySelector('.hamburger');
@@ -58,7 +57,7 @@ const list = document.querySelectorAll('li');
 
 menu.addEventListener('click', () => {
     list.forEach(item => {
-        item.classList.toggle('active');
+        item.classList.toggle('on');
     })
     menu.classList.toggle('cross');
 })
