@@ -143,8 +143,6 @@ background-attachment: fixed !important;
     .brandShow {
       display:none;
     }
-}
-@media screen and (max-width: 990px){
 	.navbar-brand
 	{
 		margin-right:0;
