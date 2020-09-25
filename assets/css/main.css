@@ -22,7 +22,7 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 {
 	transform: scalex(1);
 }
-.nav-item a::before 
+.nav-item a::after
 {
 	content: '';
 	position: absolute;
@@ -38,6 +38,16 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 .nav-item a:hover:after
 {
 	transform: scalex(1);
+}
+.nav-item a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+    margin: 5px;
+    position: relative;
+}
+.nav-item {
+    display: flex;
 }
 .card-img-top
 {
