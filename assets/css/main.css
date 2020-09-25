@@ -11,7 +11,8 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 }
 .pMd p
 {
-	margin-bottom:0;
+	margin-bottom:0.3rem;
+	margin-left: 1rem;
 }
 pre code
 {

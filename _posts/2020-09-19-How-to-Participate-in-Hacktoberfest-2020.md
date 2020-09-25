@@ -24,7 +24,7 @@ Register on the webiste and make 4 Pull Requests (PR's) to win  a T-shirt.
 
    You can **clone** the repository in your local pc with use of **[Github-Desktop](https://desktop.github.com/)** application or for your [Terminal/bash](https://git-scm.com/downloads).
 
-  **For Terminal** -
+ - **For Terminal** -
    ```bash
    git clone <url_name>  
    ```
