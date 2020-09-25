@@ -12,7 +12,7 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 	top:0;
 	left:0;
 	width:100%;
-	height: 3px;
+	height: 5px;
 	background-color: white;
 	transform: scalex(0);
 	transition: all 0.3s;
@@ -29,7 +29,7 @@ background: linear-gradient(to top, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Fir
 	bottom:0;
 	left:0;
 	width:100%;
-	height: 3px;
+	height: 5px;
 	background-color: white;
 	transform: scalex(0);
 	transition: all 0.3s;
