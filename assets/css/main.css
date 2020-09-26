@@ -66,7 +66,7 @@ pre code
 .card {
     height: 485px;
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
-	border-radius: .5rem;
+	border-radius: .5rem !important;
 }
 .navbar-brand {
     font-size: 2.3rem !important;
@@ -74,11 +74,11 @@ pre code
 blockquote
 {
 	box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, .2), -6px 0px 10px 2px rgba(0, 0, 0, .2);
-	border-radius: .5rem;
+	border-radius: .5rem !important;
 }
 .bdrRadius
 {
-	border-radius: .5rem
+	border-radius: .5rem !important;
 }
 h1,h2,h3,h4,h5
 {
@@ -169,6 +169,10 @@ background-attachment: fixed !important;
 	{
 		margin-right: 4px !important;
 	}
+	.pMd
+	{
+	margin-top: 30% !important;
+	}
 }
 @media screen and (max-width: 990px)
 {
@@ -185,6 +189,10 @@ background-attachment: fixed !important;
 	.marginStyle
 	{
 	margin-top: 14% !important;
+	}
+	.pMd
+	{
+	margin-top: 15% !important;
 	}
 }
 
@@ -301,4 +309,18 @@ background-attachment: fixed !important;
 {
 	font-size:55px;
 	font-weight:700;
+}
+.badge
+{
+	font-size:16px !important;
+	line-height:1.5 !important;
+	font-weight:normal !important;
+}
+.mainHeading a:hover
+{
+	text-decoration:none;
+}
+.pMd
+{
+	margin-top: 10%;
 }
