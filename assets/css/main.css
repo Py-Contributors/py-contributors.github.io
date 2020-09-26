@@ -163,17 +163,11 @@ background-attachment: fixed !important;
 /*  Chnages*/
 
 #header {
-	position: fixed;
 	z-index: 1000;
 	left: 0;
 	top: 0;
 	width: 100vw;
 	height: auto;
-}
-#header .header {
-	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
-	transition: .3s ease background-color;
 }
 
 #header .nav-bar {
@@ -234,12 +228,16 @@ background-attachment: fixed !important;
 	color: crimson;
 }
 .hamburger {
-    z-index: 1;
+   z-index: 100;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    right: 10px;
+    right: 10%;
     top: 10px;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    transform: scale(.8);
 }
 
 .line1 ,.line2 ,.line3 {
@@ -247,7 +245,7 @@ background-attachment: fixed !important;
     height: 5px;
     background-color: white;
     margin: 6px 0;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .cross .line1 {
