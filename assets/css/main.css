@@ -147,7 +147,27 @@ background-attachment: fixed !important;
 	}
 	.marginStyle
 	{
-	margin-top: 20% !important;
+	margin-top: 30% !important;
+	}
+	.mainHeading
+	{
+		font-size:37px !important;
+	}
+	.hamburger
+	{
+		right: 3% !important;
+	}
+	.nav-bar .mx-auto
+	{
+		margin-left:0 !important;
+	}
+	.nav-bar
+	{
+		padding:0 0 !important;
+	}
+	.mainHeading img
+	{
+		margin-right: 4px !important;
 	}
 }
 @media screen and (max-width: 990px)
@@ -155,16 +175,16 @@ background-attachment: fixed !important;
 	.brandShow {
       display:none;
     }
-	.marginStyle
-	{
-	margin-top: 14% !important;
-	}
 }
 @media screen and (min-width: 700px) and (max-width: 990px)
 {
 	.navbar-header
 	{
 		margin-left: 50%;
+	}
+	.marginStyle
+	{
+	margin-top: 14% !important;
 	}
 }
 
@@ -275,5 +295,10 @@ background-attachment: fixed !important;
 }
 .marginStyle
 {
-	margin-top: 8%;
+	margin-top: 10% ;
+}
+.mainHeading
+{
+	font-size:55px;
+	font-weight:700;
 }
