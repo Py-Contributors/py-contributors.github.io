@@ -274,7 +274,8 @@ background-attachment: fixed !important;
     position: absolute;
     right: 10%;
     top: -15px;
-    border: 5px solid white;
+    border: 5px solid #00548d;
+	background-color:#00548d;
     padding: 10px;
     border-radius: 50%;
     transform: scale(.8);
@@ -323,4 +324,9 @@ background-attachment: fixed !important;
 .pMd
 {
 	margin-top: 10%;
+}
+.cross
+{
+	background-color: #75dddc;
+	border-color: #75dddc;
 }
