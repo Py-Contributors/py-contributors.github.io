@@ -257,7 +257,7 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-o
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.05);
+	color: rgba(0, 0, 0, 0.1);
 	font-size: 9rem;
 	letter-spacing: 50px;
 	z-index: -1;
