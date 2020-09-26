@@ -147,7 +147,7 @@ background-attachment: fixed !important;
 	}
 	.marginStyle
 	{
-	margin-top: 20%;
+	margin-top: 20% !important;
 	}
 }
 @media screen and (max-width: 990px)
@@ -157,7 +157,7 @@ background-attachment: fixed !important;
     }
 	.marginStyle
 	{
-	margin-top: 10%;
+	margin-top: 14% !important;
 	}
 }
 @media screen and (min-width: 700px) and (max-width: 990px)
@@ -226,8 +226,8 @@ background-attachment: fixed !important;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
-	font-size: 13rem;
+	color: rgba(240, 248, 255, 0.05);
+	font-size: 9rem;
 	letter-spacing: 50px;
 	z-index: -1;
 	transition: .3s ease letter-spacing;
@@ -249,7 +249,7 @@ background-attachment: fixed !important;
     border: 5px solid white;
     padding: 10px;
     border-radius: 50%;
-    transform: scale(.6);
+    transform: scale(.8);
 }
 
 .line1 ,.line2 ,.line3 {
