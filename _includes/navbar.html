@@ -15,7 +15,11 @@
 		<!-- <div class="container"> -->
     <!-- <div class="ml-auto mr-4"> -->
 <div class="nav-list">
-	 <div class="hamburger"><div class="bar"></div></div>
+	 <div class="hamburger">
+		<div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+	</div>
       <ul >
         {% if page.active == "home" %}
         <li class=" active"><a class="" href="/" data-after="Home">Home</a></li>
@@ -62,13 +66,13 @@ const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a'
 const header = document.querySelector('.header.container');
 
 hamburger.addEventListener('click', () => {
-	hamburger.classList.toggle('active');
+    hamburger.classList.toggle('cross');
 	mobile_menu.classList.toggle('active');
 });
 
 menu_item.forEach((item) => {
 	item.addEventListener('click', () => {
-		hamburger.classList.toggle('active');
+		hamburger.classList.toggle('cross');
 		mobile_menu.classList.toggle('active');
 	});
 });

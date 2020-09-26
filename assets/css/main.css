@@ -162,6 +162,20 @@ background-attachment: fixed !important;
 
 /*  Chnages*/
 
+#header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+#header .header {
+	min-height: 8vh;
+	background-color: rgba(31, 30, 30, 0.24);
+	transition: .3s ease background-color;
+}
+
 #header .nav-bar {
 	display: flex;
 	align-items: center;
@@ -219,57 +233,33 @@ background-attachment: fixed !important;
 #header .nav-list ul li:hover a {
 	color: crimson;
 }
-#header .hamburger {
-	height: 60px;
-	width: 60px;
-	display: inline-block;
-	border: 3px solid white;
-	border-radius: 50%;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	z-index: 100;
-	cursor: pointer;
-	transform: scale(.8);
-	margin-right: 20px;
+.hamburger {
+    z-index: 1;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
-#header .hamburger:after {
-	position: absolute;
-	content: '';
-	height: 100%;
-	width: 100%;
-	border-radius: 50%;
-	border: 3px solid white;
-	animation: hamburger_puls 1s ease infinite;
+
+.line1 ,.line2 ,.line3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 }
-#header .hamburger .bar {
-	height: 2px;
-	width: 30px;
-	position: relative;
-	background-color: white;
-	z-index: -1;
+
+.cross .line1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
-	content: '';
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	left: 0;
-	background-color: white;
-	transition: .3s ease;
-	transition-property: top, bottom;
+
+.cross .line2 {
+    opacity: 0;
+    background-color: white;
 }
-#header .hamburger .bar::after {
-	top: 8px;
-}
-#header .hamburger .bar::before {
-	bottom: 8px;
-}
-#header .hamburger.active .bar::before {
-	bottom: 0;
-}
-#header .hamburger.active .bar::after {
-	top: 0;
+
+.cross .line3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: white;
 }
