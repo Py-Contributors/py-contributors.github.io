@@ -257,8 +257,8 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-o
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.05);
-	font-size: 9rem;
+	color: rgba(0, 0, 0, 0.1);
+	font-size: 8rem;
 	letter-spacing: 50px;
 	z-index: -1;
 	transition: .3s ease letter-spacing;
@@ -268,7 +268,7 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-o
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: midnightblue;
 }
 .hamburger {
    z-index: 100;
@@ -326,10 +326,14 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-o
 }
 .pMd
 {
-	margin-top: 10%;
+	margin-top: 10% !important;
 }
 .cross
 {
 	background-color: #75dddc;
 	border-color: #75dddc;
+}
+.ml-7
+{
+	margin-left:25rem;
 }
