@@ -129,7 +129,7 @@ background-attachment: fixed !important;
 }
 .box {
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 5px;
   margin: 0 auto;
 }
@@ -336,4 +336,26 @@ background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' fill-o
 .ml-7
 {
 	margin-left:25rem;
+}
+
+::selection
+{
+	background:#ffcb3c;
+}
+
+body{
+	opacity: 0;
+	margin-top: 50px;
+	animation: 1s slidefade .5s forwards;
+}
+.jumbo-content{
+	opacity: 0;
+	margin-top: 50px;
+	animation: 1s slidefade 1s forwards;
+}
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
 }
