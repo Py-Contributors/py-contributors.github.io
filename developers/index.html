@@ -4,24 +4,29 @@ title : Developers
 active : developers
 ---
 
+<div class="container">
+	
 <div class="jumbotron text-dark text-center p-4">
 	<h1><strong>Contributors for PyContributors</strong></h1>	
+</div>	
+	
+	{% for member in site.data.contributors %}
+	<div class="card text-white bg-dark mb-3" style="height:auto;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="/assets/contributors/{{member.picture}}.png" class="card-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body h-100">
+        <h3 class="card-title">{{member.name}}</h3>
+		  <h5 class="card-subtitle mb-2 text-muted">
+		<a href="https://github.com/{{member.github}}"><i class="fab fa-github mr-2"></i>{{member.github}}</a>
+		  </h5>
+        <p class="card-text">{{member.info}}</p>
+        <p class="card-text text-muted">Email : {{member.email}}</p>
+      </div>
+    </div>
+  </div>
 </div>
-
-<h2 class="text-center text-white">Contact us</h2>
-<form action="https://smartforms.dev/submit/5f6521fdb81854118fd3d805" method="POST">
-	<div class="form-group">
-		<label class="text-white">Name</label>
-		<input type="text" class="form-control" placeholder="enter your name" name="name">
-	</div>
-	<div class="form-group">
-	  <label class="text-white" for="exampleInputEmail1">Email address</label>
-	  <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter your email">
-	  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-	</div>
-	<div class="form-group">
-	  <label class="text-white">Text(Message)</label>
-	  <textarea class="form-control" rows="4" id="exampleFormControlTextarea1" placeholder="Enter your message here"></textarea>
-	</div>	
-	<button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+	{% endfor %}
+</div>
