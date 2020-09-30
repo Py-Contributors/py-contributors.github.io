@@ -1,5 +1,4 @@
-<!-- <nav class="navbar navbar-expand-lg navbar-dark">	 -->
- <section id="header" class=" p-2 mb-4">
+<section id="header" class=" p-2 mb-4">
     <div class="header container">
       <div class="nav-bar">
 	<div class="d-flex mx-auto">
@@ -7,13 +6,7 @@
 		 <h3 class="mainHeading"><a class="text-white" href="/"><img src="assets/img/logo/logo.png" style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py-Contributors</a></h3>
 		</div>
 	</div>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation"> -->
-      <!-- <span class="navbar-toggler-icon"></span> -->
-    <!-- </button> -->
-
-    <!-- <div class="collapse navbar-collapse" id="navbarColor03"> -->
-		<!-- <div class="container"> -->
-    <!-- <div class="ml-auto mr-4"> -->
+   
 <div class="nav-list">
 	 <div class="hamburger mt-4">
 		<div class="line1"></div>
@@ -32,13 +25,6 @@
     {% else %}
         <li class=""><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
     {% endif %}
-		  <!-- </ul>
-		  </div> -->
-		<!-- <div class="navbar-header brandShow">
-		  <a class="navbar-brand" href="/"><img src="/assets/img/logo/logo.png" style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py Contributors</a>
-			</div> -->
-
-         <!-- <ul class="navbar-nav mr-auto ml-4"> -->
 
     {% if page.active == "updates" %}
         <li class=" active"><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
@@ -53,11 +39,9 @@
     {% endif %}
     </ul>
 		</div>
-	<!-- </div> -->
 		  </div>
     </div>
   </section>
-  <!-- </nav> -->
 
 <script>
 	const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
@@ -76,6 +60,4 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
-
-
 </script>
