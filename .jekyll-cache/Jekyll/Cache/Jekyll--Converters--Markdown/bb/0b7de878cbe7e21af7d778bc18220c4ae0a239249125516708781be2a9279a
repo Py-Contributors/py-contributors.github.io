@@ -1,0 +1,72 @@
+I"�<h1 id="hacktoberfest-2020">Hacktoberfest-2020</h1>
+
+<p>Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code.</p>
+
+<p>Register on the webiste and make 4 Pull Requests (PR’s) to win  a T-shirt.</p>
+
+<p><strong>Website</strong> - <a href="https://hacktoberfest.digitalocean.com/">https://hacktoberfest.digitalocean.com/</a></p>
+
+<p><strong>Repository</strong> - <a href="https://github.com/Py-Contributors/Hacktoberfest-2020/">https://github.com/Py-Contributors/Hacktoberfest-2020/</a></p>
+
+<h2 id="how-to-participate-">How to Participate ?</h2>
+
+<ol>
+  <li>
+    <h3 id="fork-the-repo">Fork the Repo</h3>
+
+    <p>To start, Click on <strong>Fork</strong> button in the top-right corner. It will create a copy of repository in your account.</p>
+
+    <ul>
+      <li>Check here <a href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">How to Fork a repository.</a></li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="clone-the-repository">Clone the Repository</h3>
+
+    <p>You can <strong>clone</strong> the repository in your local pc with use of <strong><a href="https://desktop.github.com/">Github-Desktop</a></strong> application or for your <a href="https://git-scm.com/downloads">Terminal/bash</a>.</p>
+  </li>
+</ol>
+
+<ul>
+  <li><strong>For Terminal</strong> -
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;url_name&gt;  
+</code></pre></div>    </div>
+
+    <ul>
+      <li><a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">Cloning Repository</a></li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <h3 id="upload-your-code-or-change">Upload Your Code or Change</h3>
+
+    <p>Make the changes you want to make in the repository. It can be spelling mistakes, code correction or anything.</p>
+
+    <p>You can also upload your program to respective folder. It can be anything “Hello world program”, “Rock Paper Scissors”.</p>
+
+    <p><strong>Note:- Please Upload your program with proper Documentation in it. So everyone can understand what your program is doing.</strong></p>
+  </li>
+  <li>
+    <h3 id="push-it-and-make-a-pr">Push it and Make a PR</h3>
+
+    <p>Push it to your repository and make a PR in main repository.</p>
+
+    <ul>
+      <li><a href="https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line">Push your first code</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Voila, You have Contributed to open-source 😋.</p>
+
+<p>If you are stuck somewhere use Stackoverflow, Discord or simply Google it.</p>
+
+<p><strong>And remember, everyone is a beginner when they start a new thing and they face a lot of issues. But keep trying and don’t give up, that’s what transforms a beginner into a pro 😄.</strong></p>
+
+<h4 id="for-queries-mail-us-at">For queries mail us at:</h4>
+<ul>
+  <li><a href="mailto:pycontributors@gmail.com">pycontributors@gmail.com</a></li>
+</ul>
+:ET
