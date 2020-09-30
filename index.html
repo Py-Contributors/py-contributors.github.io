@@ -16,21 +16,137 @@ active : home
 
 <div class="row">
 	<div class="container">
-	<div class="col-md-12">		
-		<div class="row">
-			<div class="col-md-6">
-				{% include_relative components/articles/hacktoberfest.html %}
-			</div>
-			<div class="col-md-6">
-				{% include_relative components/articles/studentperformance.html %}
-			</div>		
-		</div>
-	</div> <!--col-md-8 closed-->	
 
+	<div class="row" data-masonry='{"percentPosition": true }'>
+	<!-- Hacktoberfest -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center text-white bg-dark">
+	<img class="card-img-top" src="/assets/img/project image/hacktoberfest.jpeg" alt="{{post.post_title}}">
+        <div class="card-body">
+         <h2 class="card-title mb-0">Hacktoberfest-2020</h2> 
+          <p class="card-text">Hacktoberfest is a month long virtual festival event to celebrate open source contributions. Easiest way to get into open source!</p>
+		<a href="http://github.com/py-contributors/hacktoberfest-2020/" class="btn btn-outline-warning">Check On Github</a>				
+        </div>
+      </div>
+    </div>
+	<!-- Awesome Scripts -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center text-info bg-dark p-3">
+        <figure class="p-3 mb-0">
+          <blockquote class="blockquote mb-0">
+        <h2 class="card-title mb-0">Awesome Scripts</h2> 
+          </blockquote>
+			<p>
+				A Collection of Awesome Scripts in Python to make life easy.
+			</p>
+	<a href="https://github.com/Py-Contributors/awesomeScripts" class="btn btn-info">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+	<!-- Hands on Machine Learning -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center bg-dark text-primary">
+        <div class="card-body">
+          <h2 class="card-title mb-0">Hands on Machine Learning</h2>
+    <p class="card-text">Hands on Machine Learning with Scikit-Learn, Tensorflow and Keras</p>
+			<a href="https://github.com/Py-Contributors/Hands-on-Machine-learning-with-Scikit-learn-Tensorflow-and-Keras" class="btn btn-primary">Check On Github</a>	
+        </div>
+      </div>
+    </div>
+	<!-- center logo-->
+    <!-- <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card bg-light">
+        <img class="card-img-top" src="/assets/img/logo/logo.png" alt="{{post.post_title}}">
+      </div>  
+    </div> -->
+	<!-- FileMoverGUI -->
+	<div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card p-3 text-center bg-dark text-light">
+        <figure class="mb-0">
+          <blockquote class="blockquote mb-0">
+            <h2 class="card-title mb-0">FileMover GUI</h2>
+          </blockquote>
+			<p>
+				Python Automation to arrange Files in one Click.
+			</p>
+          <a href="https://github.com/Py-Contributors/FileMoverGUI" class="btn btn-light">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+	<!-- student performance -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center text-white bg-dark">
+	<img class="card-img-top" src="/assets/img/project image/student_performance_prediction.jpg" alt="student_performance_prediction">
+        <div class="card-body">
+         <h2 class="card-title mb-0">Performance Prediction</h2> 
+          <p class="card-text">Students’ Performance Prediction Web Application Using Machine Learning Approach.</p>
+		 <a href="https://github.com/Py-Contributors/Student-s-Perform-Prediction" class="btn btn-outline-warning">Check On Github</a>			
+        </div>
+      </div>
+    </div>
+	<!-- Algorithms and Data Structures -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card text-center text-danger bg-dark p-3">
+        <figure class="p-3 mb-0">
+          <blockquote class="blockquote mb-0">
+        <h2 class="card-title mb-0">Algorithms and Data Structures</h2> 
+          </blockquote>
+			<p>
+				Algorithms And DataStructures implemented in Python & CPP.
+			</p>
+<a href="https://github.com/Py-Contributors/AlgorithmsAndDataStructure" class="btn btn-danger">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+	<!-- Algorithm- HackerRank -->
+	<div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card p-3 text-center bg-dark text-success">
+        <figure class="mb-0">
+          <blockquote class="blockquote mb-0">
+            <h2 class="card-title mb-0">Algorithm- HackerRank</h2>
+          </blockquote>
+			<p>
+				HackerRank Algorithm Solution with Python/C++.
+			</p>
+          <a href="https://github.com/Py-Contributors/AlgorithmHackerRank" class="btn btn-success">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+	<!-- OpenCv -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card p-3 text-center bg-dark" style="color: salmon">
+        <figure class="mb-0">
+          <blockquote class="blockquote mb-0">
+            <h2 class="card-title mb-0">OpenCv Tutorial</h2>
+          </blockquote>
+			<p>
+				OpenCV tutorial in Python Programming Language.
+			</p>
+          <a href="https://github.com/Py-Contributors/OpenCv-tutorial" class="btn text-dark" style="background-color: salmon">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+	<!-- Website -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card p-3 text-center bg-dark text" style="color: burlywood">
+        <figure class="mb-0">
+          <blockquote class="blockquote mb-0">
+            <h2 class="card-title mb-0">Py-Contibutors Website</h2>
+          </blockquote>
+			<p>
+				The repository for the development and maintenance of the website.
+			</p>
+          <a href="https://github.com/Py-Contributors/py-contributors.github.io" class="btn text-dark" style="background-color: burlywood">Check On Github</a>	
+        </figure>
+      </div>
+    </div>
+		
+  </div>		
+		
 <div>					
 	<div class="container">
 		<!-- Quote-->
-	<blockquote class="p-4 blockquote mt-4 text-center">
+	<blockquote class="p-4 blockquote mt-4 text-center bgCst">
 	<p class="mb-0"><i class="fa fa-quote-left mr-2"></i> Code never lies; comments often do. 😉😉 <i class="fa fa-quote-right ml-2"></i></p>
 		<footer class="blockquote-footer">By <cite title="Source Title">Ron Jeffries</cite></footer>
 	</blockquote>		
