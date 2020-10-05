@@ -1,11 +1,13 @@
 ---
 layout : default
-title : Updates
+title : updates | PyContributors
+descriptions : Stay updates with upcoming notifications from Pycontributors
+image : https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 active : updates
 ---
 
 <div class="jumbotron text-dark text-center p-4">
-	<h1><strong>Updates from PyContributors</strong></h1>	
+	<h1><strong>Updates from PyContributors</strong></h1>
 </div>
 
 <div class="row mb-5">
@@ -14,30 +16,29 @@ active : updates
       <h2 class="bg-dark p-2 text-white txet-center">Open-Source Contribution</h2>
 		<div class="card-body">
 		<p class="p-1">Hacktoberfest is a monthlong celebration of open source software brought to you by DigitalOcean, Intel, and DEV.
-         Participants in Hacktoberfest make contributions to open source projects on GitHub through pull requests and 
+         Participants in Hacktoberfest make contributions to open source projects on GitHub through pull requests and
          earn some swag as a reward for submitting four or more high-quality pull requests during the month of October.
          Register <a href="https://hacktoberfest.digitalocean.com/">Here</a>
       </p>
-      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">	
-		</div>    
+      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">
+		</div>
   </div>
   </div>
 
-  <div class="col-md-5">    
+  <div class="col-md-5">
     <div class="text-center bdrRadius shadow-lg">
       <div class="card-header bg-dark text-white p-2">
-       <h3 class="mb-0">Notifications</h3> 
+       <h3 class="mb-0">Notifications</h3>
       </div>
       <ul class="list-group list-group-flush">
-        {% for post in site.posts %} 
-		  <li class="list-group-item"> 
+        {% for post in site.posts %}
+		  <li class="list-group-item">
 			  <span class="badge badge-danger badge-pill p-2 mr-2 animate__animated animate__pulse animate__infinite">  New !! </span>
-		  <a class="mt-2" href="{{post.url}}">{{post.title}}</a> 
-          </li>            
-        {% endfor %}        
+		  <a class="mt-2" href="{{post.url}}">{{post.title}}</a>
+          </li>
+        {% endfor %}
         <li class="list-group-item">Keep an eye out.</li>
       </ul>
     </div>
   </div>
 </div> <!--Row Div Close-->
-

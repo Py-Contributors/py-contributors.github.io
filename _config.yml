@@ -4,3 +4,5 @@ url: "https://py-contributors.github.io" # the base hostname & protocol for your
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+site : https://py-contributors.github.io
+description : A open Source community for Python, Machine Learning and Artificial intelligence. Open-source contributions are welcome.
