@@ -1,6 +1,8 @@
 ---
 layout : blog
 title : How to Participate in HacktoberFest 2020
+descriptions : Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code.
+image : https://py-contributors.github.io/assets/img/updates/hacktoberfest2020.png
 ---
 # Hacktoberfest-2020
 
