@@ -1,19 +1,11 @@
 body {
-  background: #ADA996;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6DD5FA, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6DD5FA, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: 'Oswald', sans-serif !important;
 	font-weight: 400;
    }
-/*
-body {
-    background: #003973;
-    background: -webkit-linear-gradient(to top, #E5E5BE, #003973);
-    background: linear-gradient(to top, #E5E5BE, #003973);
-	  font-family: 'Oswald', sans-serif !important;
-	  font-weight:400;
-   }
-*/
+
 .nav-item a::before
 {
 	content: '';
