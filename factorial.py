@@ -1,6 +1,10 @@
 # Python program to find the factorial of a number provided by the user.
 
+# change the value for a different result
+num = 7
 
+# To take input from the user
+#num = int(input("Enter a number: "))
 
 factorial = 1
 
