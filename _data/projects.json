@@ -3,7 +3,8 @@
         "project_name": "Cybel",
         "description": "Discord bot for the cybel community",
         "github_url": "https://github.com/Py-Contributors/cybel",
-        "project_tags": "discord, bot, python, community"
+        "project_tags": "discord, bot, python, community",
+        "project_image": "/assets/img/project image/cybel.jpg"
     },
     {
         "project_name": "AudioBook",
@@ -11,6 +12,7 @@
         "github_url": "https://github.com/Py-Contributors/audiobook",
         "project_tags": "python, audiobook, app",
         "pypi_name": "audiobook",
+        "project_image" : "/assets/img/project image/audiobook.jpg",
         "pypi_url": "https://pypi.org/project/audiobook/"
     },
     {
@@ -41,20 +43,23 @@
         "project_name": "Stock-Dashboard",
         "description": "Dashboard/Alert to track stock prices",
         "github_url": "https://github.com/Py-Contributors/Stock-Dashboard",
-        "project_tags": "python, stock, dashboard"
+        "project_tags": "python, stock, dashboard",
+        "project_image": "/assets/img/project image/stock-dashboard.jpg"
         
     },
     {
         "project_name": "Awesome-Python-Scripts",
         "description": "collections for useful python scripts",
         "github_url": "https://github.com/Py-Contributors/awesomeScripts/",
-        "project_tags": "python, scripts, awesome"
+        "project_tags": "python, scripts, awesome",
+        "project_image": "/assets/img/project image/awesome-python-scripts.jpg"
     },
     {
         "project_name": "FileMoverGUI",
         "description": "GUI tool to manage files smartly",
         "github_url": "https://github.com/Py-Contributors/FileMoverGUI",
-        "project_tags": "python, file, mover, gui"
+        "project_tags": "python, file, mover, gui",
+        "project_image": "/assets/img/project image/filemover.jpg"
         
     }
 ]

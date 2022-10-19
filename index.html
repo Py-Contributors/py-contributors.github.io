@@ -25,6 +25,9 @@ active : home
       <div class="card text-center text-info bg-dark p-3">
         <figure class="p-3 mb-0">
           <blockquote class="blockquote mb-0">
+            {% if project.project_image %}
+              <img class="card-img-top" src="{{project.project_image}}">
+            {% endif %}
         <h2 class="card-title mb-0 text-primary">{{project.project_name}}</h2>
           </blockquote><p>{{project.description}}</p>
 	          <a href="{{project.github_url}}" class="btn btn-info">Github</a>
