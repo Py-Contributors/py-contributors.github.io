@@ -10,25 +10,29 @@ active : updates
 	<h1><strong>Updates from PyContributors</strong></h1>
 </div>
 
-<div class="row mb-5">
-  <div class="col-md-7">
-    <div class="bg-white text-dark text-center bdrRadius shadow-lg">
-      <h2 class="bg-dark p-2 text-white txet-center">Open-Source Contribution</h2>
-		<div class="card-body">
-		<p class="p-1">Hacktoberfest is a monthlong celebration of open source software brought to you by DigitalOcean, Intel, and DEV.
-         Participants in Hacktoberfest make contributions to open source projects on GitHub through pull requests and
-         earn some swag as a reward for submitting four or more high-quality pull requests during the month of October.
-         Register <a href="https://hacktoberfest.digitalocean.com/">Here</a>
-      </p>
-      <img class="img-fluid" src="/assets/img/updates/hacktoberfest2020.png" alt="hacktoberfest">
-		</div>
-  </div>
-  </div>
+  <div class="row mb-5">
+      <div class="col-md-7">
+        {% for post in paginator.posts %}
+        <div class="bg-white text-dark text-center bdrRadius shadow-lg">
+          <h2 class="bg-dark p-2 text-white txet-center"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+        <div class="card-body">
+          <!-- add author and upload date -->
+          <p class="card-text"> author : {{post.author}} | date : {{post.date | date: "%B %d, %Y"}}</p>
+
+        <p class="p-1">{{post.descriptions}} <a href="https://hacktoberfest.digitalocean.com/">Here</a>
+          </p>
+          <img class="img-fluid" src="{{post.image}}" alt="hacktoberfest">
+          <!-- READ MORE BUTTON -->
+          <a href="{{post.url | prepend: site.baseurl}}" class="btn btn-primary mt-4">Read More</a>
+        </div>
+      </div><br>
+    {% endfor %}
+    </div>
 
   <div class="col-md-5">
     <div class="text-center bdrRadius shadow-lg">
       <div class="card-header bg-dark text-white p-2">
-       <h3 class="mb-0">Notifications</h3>
+       <h3 class="mb-0">Blog</h3>
       </div>
       <ul class="list-group list-group-flush">
         {% for post in paginator.posts %}
@@ -66,7 +70,8 @@ active : updates
     </div>
   </div>
 </div> <!--Row Div Close-->
-<style>.pagination a, .pagination span {
+<style>
+  .pagination a, .pagination span {
     padding: 7px 18px;
     border: 1px solid #eee;
     margin-left: -2px;
@@ -75,7 +80,7 @@ active : updates
     display: inline-block;
   }
 
-.pagination a {
+  .pagination a {
     &:hover {
         background-color: #f1f1f1;
         color: #333;

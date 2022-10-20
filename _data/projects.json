@@ -1,0 +1,65 @@
+[
+    {
+        "project_name": "Cybel",
+        "description": "Discord bot for the cybel community",
+        "github_url": "https://github.com/Py-Contributors/cybel",
+        "project_tags": "discord, bot, python, community",
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/cybel.jpg?raw=true"
+    },
+    {
+        "project_name": "AudioBook",
+        "description": "Listen to your favorite books with this audiobook app",
+        "github_url": "https://github.com/Py-Contributors/audiobook",
+        "project_tags": "python, audiobook, app",
+        "pypi_name": "audiobook",
+        "project_image" : "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/audiobook.jpg?raw=true",
+        "pypi_url": "https://pypi.org/project/audiobook/"
+    },
+    {
+        "project_name": "Dataset-Convertor",
+        "description": "Converts object detection dataset from one format to another",
+        "github_url": "https://github.com/Py-Contributors/dataset-convertor",
+        "project_tags": "python, dataset, convertor",
+        "pypi_name": "dataset-convertor",
+        "pypi_url": "https://pypi.org/project/dataset-convertor/"
+    },
+    {
+        "project_name": "RandomProfileGenerator",
+        "description": "Generate random profiles for your projects",
+        "github_url": "https://github.com/Py-Contributors/RandomProfileGenerator",
+        "project_tags": "python, random, profile, generator",
+        "pypi_name": "random-profile",
+        "pypi_url": "https://pypi.org/project/random-profile/"
+    },
+    {
+        "project_name": "Website Cloner",
+        "description": "Clone any website with this tool",
+        "github_url": "https://github.com/Py-Contributors/site-cloner",
+        "project_tags": "python, website, cloner",
+        "pypi_name": "site-cloner",
+        "pypi_url": "https://pypi.org/project/site-cloner/"
+    },
+    {
+        "project_name": "Stock-Dashboard",
+        "description": "Dashboard/Alert to track stock prices",
+        "github_url": "https://github.com/Py-Contributors/Stock-Dashboard",
+        "project_tags": "python, stock, dashboard",
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/stock-dashboard.jpg?raw=true"
+        
+    },
+    {
+        "project_name": "Awesome-Python-Scripts",
+        "description": "collections for useful python scripts",
+        "github_url": "https://github.com/Py-Contributors/awesomeScripts/",
+        "project_tags": "python, scripts, awesome",
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/awesome-python-scripts.jpg?raw=true"
+    },
+    {
+        "project_name": "FileMoverGUI",
+        "description": "GUI tool to manage files smartly",
+        "github_url": "https://github.com/Py-Contributors/FileMoverGUI",
+        "project_tags": "python, file, mover, gui",
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/filemover.jpg?raw=true"
+        
+    }
+]

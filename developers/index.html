@@ -8,14 +8,18 @@ active : developers
 <div class="container">
 
 <div class="jumbotron text-dark text-center p-4">
-	<h1><strong>Contributors for PyContributors</strong></h1>
+	<h1><strong>PyContributors</strong></h1>
 </div>
 
 	{% for member in site.data.contributors %}
 	<div class="card text-white bg-dark mb-3" style="height:auto;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="/assets/contributors/{{member.picture}}.png" class="card-img">
+      {% if member.is_profile %}
+        <img src="/assets/contributors/{{member.picture}}" class="card-img">
+      {% else %}
+        <img src="/assets/contributors/sample.png" class="card-img"> <!-- if no picture load the sample -->
+      {% endif %}
     </div>
     <div class="col-md-8">
       <div class="card-body h-100">
