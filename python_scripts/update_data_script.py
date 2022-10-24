@@ -26,5 +26,5 @@ for member in org.get_members():
     user_data["avatar"] = member.avatar_url
     output.append(user_data)
 
-with open(f"_data/members.json.json", "w") as f:
+with open("_data/members.json.json", "w") as f:
     json.dump(output, f, indent=4)
