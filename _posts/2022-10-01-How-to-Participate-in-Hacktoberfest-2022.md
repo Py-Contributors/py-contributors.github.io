@@ -4,7 +4,7 @@ title : Hacktoberfest 2022 Is Here
 descriptions : Whether you are a seasoned open source professional, an enthusiastic community contributor, or dipping your toes in for the very first time, there is an opportunity to participate in Hacktoberfest.
 date : 2022-10-01
 author : Deepak Raj
-image : https://py-contributors.github.io/assets/img/updates/hacktoberfest2020.png
+image : https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg
 ---
 Whether you are a seasoned open source professional, an enthusiastic community contributor, or dipping your toes in for the very first time, there is an opportunity to participate in Hacktoberfest.
 

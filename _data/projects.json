@@ -37,7 +37,8 @@
         "github_url": "https://github.com/Py-Contributors/site-cloner",
         "project_tags": "python, website, cloner",
         "pypi_name": "site-cloner",
-        "pypi_url": "https://pypi.org/project/site-cloner/"
+        "pypi_url": "https://pypi.org/project/site-cloner/",
+        "project_image": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "project_name": "Stock-Dashboard",

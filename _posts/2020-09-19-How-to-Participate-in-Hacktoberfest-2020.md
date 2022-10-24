@@ -4,7 +4,7 @@ title : How to Participate in HacktoberFest 2020
 descriptions : Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code.
 date : 2020-10-01
 author : Deepak Raj
-image : https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg
+image : https://py-contributors.github.io/assets/img/updates/hacktoberfest2020.png
 ---
 # Hacktoberfest-2020
 
