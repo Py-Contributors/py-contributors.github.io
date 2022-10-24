@@ -9,7 +9,7 @@ active : community
 <div class="container">
 
 <div class="jumbotron text-dark text-center p-4">
-	<h1><strong>PyContributors</strong></h1>
+	<h1><strong>Community Members</strong></h1>
 </div>
 
 	{% for member in site.data.members %}
@@ -20,11 +20,23 @@ active : community
     </div>
     <div class="col-md-8">
       <div class="card-body h-100">
-        <h3 class="card-title">{{member.name}}</h3>
+        {% if member.name %}
+          <h3 class="card-title">{{member.name}}</h3>
+        {% else %}
+        
+          <h3 class="card-title">{{member.login}}</h3>
+        {% endif %}
 		  <h5 class="card-subtitle mb-2 text-muted">
-		<a href="https://github.com/{{member.name}}"><i class="fab fa-github mr-2"></i>{{member.name}}</a>
+        {% if member.name %}
+		      <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.name}}</a>
+        {% else %}
+          <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.login}}</a>
+        {% endif %}
 		  </h5>
         <p class="card-text">{{member.bio}}</p>
+        {% if member.blog %}
+          <p><a href="{{member.blog}}">📝 {{member.blog}}</a></p>
+        {% endif %}
       </div>
     </div>
   </div>
