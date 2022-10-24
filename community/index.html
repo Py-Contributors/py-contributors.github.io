@@ -1,0 +1,33 @@
+---
+layout : default
+title : Community | PyContributors
+description : Community members 
+image : https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+active : community
+---
+
+<div class="container">
+
+<div class="jumbotron text-dark text-center p-4">
+	<h1><strong>PyContributors</strong></h1>
+</div>
+
+	{% for member in site.data.members %}
+	<div class="card text-white bg-dark mb-3" style="height:auto;">
+  <div class="row no-gutters">
+    <div class="col-md-4">  
+        <img src="{{member.avatar}}" class="card-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body h-100">
+        <h3 class="card-title">{{member.name}}</h3>
+		  <h5 class="card-subtitle mb-2 text-muted">
+		<a href="https://github.com/{{member.name}}"><i class="fab fa-github mr-2"></i>{{member.name}}</a>
+		  </h5>
+        <p class="card-text">{{member.bio}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+	{% endfor %}
+</div>
