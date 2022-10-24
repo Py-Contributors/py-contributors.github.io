@@ -14,7 +14,6 @@ PAT = args['token']
 gh = Github(login_or_token=PAT)
 
 org = gh.get_organization(ORG_NAME)
-org.login
 
 for member in org.get_members():
     user_data = {}
