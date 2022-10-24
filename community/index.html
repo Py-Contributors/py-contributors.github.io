@@ -2,11 +2,12 @@
 layout : default
 title : Community | PyContributors
 description : Community members 
-image : https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+image : https://i0.wp.com/www.ictworks.org/wp-content/uploads/2017/06/open-source.png?fit=640%2C440&ssl=1
 active : community
 ---
 
 <div class="container">
+
 
 <div class="jumbotron text-dark text-center p-4">
 	<h1><strong>Community Members</strong></h1>
@@ -21,17 +22,13 @@ active : community
     <div class="col-md-8">
       <div class="card-body h-100">
         {% if member.name %}
-          <h3 class="card-title">{{member.name}}</h3>
+          <h2 class="card-title">{{member.name}}</h2>
         {% else %}
-        
-          <h3 class="card-title">{{member.login}}</h3>
+          <h2 class="card-title">{{member.login}}</h2>
         {% endif %}
+        <p class="card-text">{{member.location}}</p>
 		  <h5 class="card-subtitle mb-2 text-muted">
-        {% if member.name %}
-		      <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.name}}</a>
-        {% else %}
-          <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.login}}</a>
-        {% endif %}
+		      <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.login}}</a>
 		  </h5>
         <p class="card-text">{{member.bio}}</p>
         {% if member.blog %}

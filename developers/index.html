@@ -15,7 +15,7 @@ active : developers
 	<div class="card text-white bg-dark mb-3" style="height:auto;">
   <div class="row no-gutters">
     <div class="col-md-4">
-      {% if member.is_profile %}
+      {% if member.picture %}
         <img src="/assets/contributors/{{member.picture}}" class="card-img">
       {% else %}
         <img src="/assets/contributors/sample.png" class="card-img"> <!-- if no picture load the sample -->
