@@ -16,36 +16,42 @@
       <ul >
         {% if page.active == "home" %}
         <li class=" active"><a class="" href="/" data-after="Home">Home</a></li>
-    {% else %}
-        <li class=""><a class="" href="/" data-after="Home">Home</a></li>
-    {% endif %}
+        {% else %}
+            <li class=""><a class="" href="/" data-after="Home">Home</a></li>
+        {% endif %}
+        
+        {% if page.active == "projects" %}
+            <li class=" active"><a class="" href="/projects/index.html" data-after="Join">Join Us</a></li>
+        {% else %}
+            <li class=""><a class="" href="/projects/index.html" data-after="Projects">Community Projects</a></li>
+        {% endif %}
 
-    {% if page.active == "join-us" %}
-        <li class=" active"><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
-    {% else %}
-        <li class=""><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
-    {% endif %}
+        {% if page.active == "join-us" %}
+            <li class=" active"><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
+        {% else %}
+            <li class=""><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
+        {% endif %}
 
-    {% if page.active == "updates" %}
-        <li class=" active"><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
-    {% else %}
-        <li class=""><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
-    {% endif %}
+        {% if page.active == "updates" %}
+            <li class=" active"><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
+        {% else %}
+            <li class=""><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
+        {% endif %}
 
-    {% if page.active == "developers" %}
-        <li class=" active"><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
-    {% else %}
-        <li class=""><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
-    {% endif %}
-    {% if page.active == "community" %}
-        <li class=" active"><a class="" href="/community/index.html" data-after="Community">community</a></li>
-    {% else %}
-        <li class=""><a class="" href="/community/index.html" data-after="Community">community</a></li>
-    {% endif %}
-    </ul>
-		</div>
-		  </div>
-    </div>
+        {% if page.active == "developers" %}
+            <li class=" active"><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
+        {% else %}
+            <li class=""><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
+        {% endif %}
+        {% if page.active == "community" %}
+            <li class=" active"><a class="" href="/community/index.html" data-after="Community">community</a></li>
+        {% else %}
+            <li class=""><a class="" href="/community/index.html" data-after="Community">community</a></li>
+        {% endif %}
+        </ul>
+            </div>
+            </div>
+        </div>
   </section>
 
 <script>
