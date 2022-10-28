@@ -32,7 +32,7 @@ active : updates
   <div class="col-md-5">
     <div class="text-center bdrRadius shadow-lg">
       <div class="card-header bg-dark text-white p-2">
-       <h3 class="mb-0">Blog</h3>
+       <h3 class="mb-0">Latest Updates</h3>
       </div>
       <ul class="list-group list-group-flush">
         {% for post in paginator.posts %}
@@ -42,13 +42,13 @@ active : updates
           </li>
         {% endfor %}
 				<!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+          {% else %}
+            <span>&laquo; Prev</span>
+          {% endif %}
 
 				  {% for page in (2..paginator.total_pages) %}
 				    {% if page == paginator.page %}
@@ -69,6 +69,7 @@ active : updates
       </ul>
     </div>
   </div>
+  
 </div> <!--Row Div Close-->
 <style>
   .pagination a, .pagination span {
