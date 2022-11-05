@@ -1,18 +1,28 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=009ACD&height=100&section=header&text=PyContributors&fontSize=90%&fontColor=ffffff)
+<p><img src="https://capsule-render.vercel.app/api?type=rect&amp;color=009ACD&amp;height=100&amp;section=header&amp;text=PyContributors&amp;fontSize=80%&amp;fontColor=ffffff" alt="header"></p>
 
-![framework](https://img.shields.io/badge/language-Jekyll-blue)
-![issues](https://img.shields.io/github/issues/Py-Contributors/py-contributors.github.io)
-![forks](https://img.shields.io/github/forks/Py-Contributors/py-contributors.github.io)
-![stars](https://img.shields.io/github/stars/Py-Contributors/py-contributors.github.io)
-![license](https://img.shields.io/github/license/Py-Contributors/py-contributors.github.io)
+<p alignt="center"><img src="https://img.shields.io/badge/language-Jekyll-blue" alt="framework">
+<img src="https://img.shields.io/github/issues/Py-Contributors/py-contributors.github.io" alt="issues">
+<img src="https://img.shields.io/github/forks/Py-Contributors/py-contributors.github.io" alt="forks">
+<img src="https://img.shields.io/github/stars/Py-Contributors/py-contributors.github.io" alt="stars">
+<img src="https://img.shields.io/github/license/Py-Contributors/py-contributors.github.io" alt="license"></p>
 
 This website is created using jekyll.
+
+Jekyll requires the following:
+
+- Ruby version 2.5.0 or higher
+- RubyGems
+- GCC and Make
+
+Check [requirements](https://jekyllrb.com/docs/installation/#requirements) for more details.
 
 Run website locally on your Pc.
 
 ```bash
-gem install bundler jekyll
-bundle exec jekyll serve
+git clone https://github.com/Py-Contributors/py-contributors.github.io
+cd py-contributors.github.io
+gem install bundler jekyll # only first time
+bundle exec jekyll serve # to start the server
 ```
 
 If you like to contribute to project and new to Jekyll Please go through the [Documentation](https://jekyllrb.com/).
