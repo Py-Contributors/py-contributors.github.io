@@ -5,7 +5,8 @@
         "github_url": "https://github.com/Py-Contributors/cybel",
         "project_tags": "discord, bot, python, community",
         "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/cybel.jpg?raw=true",
-        "readthedocs_url": "https://cybel.readthedocs.io/"
+        "readthedocs_url": "https://cybel.readthedocs.io/",
+        "bot_invite": "https://top.gg/bot/832137823309004800/"
     },
     {
         "project_name": "Sanatio",
@@ -50,7 +51,8 @@
         "project_tags": "python, website, cloner",
         "pypi_name": "site-cloner",
         "pypi_url": "https://pypi.org/project/site-cloner/",
-        "project_image": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "project_image": "https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "readthedocs_url": "https://pycontributors.readthedocs.io/projects/site-cloner/en/latest/"
     },
     {
         "project_name": "Stock-Dashboard",
@@ -73,6 +75,7 @@
         "github_url": "https://github.com/Py-Contributors/Movens",
         "project_tags": "python, file, mover, gui",
         "pypi_url": "https://pypi.org/project/movens/",
-        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/filemover.jpg?raw=true"   
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/filemover.jpg?raw=true",
+        "readthedocs_url": "https://movens.readthedocs.io/"
     }
 ]

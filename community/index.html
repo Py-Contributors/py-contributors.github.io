@@ -1,42 +1,40 @@
 ---
 layout : default
 title : Community | PyContributors
-description : Community members 
+description : Community members
 image : https://i0.wp.com/www.ictworks.org/wp-content/uploads/2017/06/open-source.png?fit=640%2C440&ssl=1
 active : community
 ---
 
 <div class="container">
+  <div class="jumbotron text-dark text-center p-4">
+    <h1><strong>Community Members</strong></h1>
+  </div>
 
-
-<div class="jumbotron text-dark text-center p-4">
-	<h1><strong>Community Members</strong></h1>
-</div>
-
-	{% for member in site.data.members %}
-	<div class="card text-white bg-dark mb-3" style="height:auto;">
-  <div class="row no-gutters">
-    <div class="col-md-4">  
+  {% for member in site.data.members %}
+  <div class="card text-white bg-dark mb-3" style="height:auto;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
         <img src="{{member.avatar}}" class="card-img">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body h-100">
-        {% if member.name %}
+      </div>
+      <div class="col-md-8">
+        <div class="card-body h-100">
+          {% if member.name %}
           <h2 class="card-title">{{member.name}}</h2>
-        {% else %}
+          {% else %}
           <h2 class="card-title">{{member.login}}</h2>
-        {% endif %}
-        <p class="card-text">{{member.location}}</p>
-		  <h5 class="card-subtitle mb-2 text-muted">
-		      <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.login}}</a>
-		  </h5>
-        <p class="card-text">{{member.bio}}</p>
-        {% if member.blog %}
+          {% endif %}
+          <p class="card-text">{{member.location}}</p>
+          <h5 class="card-subtitle mb-2 text-muted">
+            <a href="https://github.com/{{member.login}}"><i class="fab fa-github mr-2"></i>{{member.login}}</a>
+          </h5>
+          <p class="card-text">{{member.bio}}</p>
+          {% if member.blog %}
           <p><a href="{{member.blog}}">📝 {{member.blog}}</a></p>
-        {% endif %}
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
-</div>
-	{% endfor %}
+  {% endfor %}
 </div>

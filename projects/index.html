@@ -2,46 +2,49 @@
 layout : default
 title : Projects | PyContributors
 description : Dedeicated page for PyContributors projects.
-image : 
+image :
 active : projects
-
 ---
 <div class="container">
-	<div class="jumbotron text-light text-center">
-		<div class="jumbo-content">
-		<h1 class="display-3"><strong>Community Projects</strong></h1>
-		<p>Projects maintained by Py-Contributors community</p>
-		</div>
-	</div>
+  <div class="jumbotron text-light text-center">
+    <div class="jumbo-content">
+      <h1 class="display-3"><strong>Community Projects</strong></h1>
+      <p>Projects maintained by Py-Contributors community</p>
+    </div>
+  </div>
 </div>
 
 <div class="row">
-	<div class="container">
-	<div class="row" data-masonry='{"percentPosition": true }'>
-  {% for project in site.data.projects %}
-    <div class="col-sm-6 col-lg-6 mb-2">
-      <div class="card text-center bg-light">
-        <figure class="mb-0">
-          <blockquote class="blockquote mb-0">
-            {% if project.project_image %}
+  <div class="container">
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      {% for project in site.data.projects %}
+      <div class="col-sm-6 col-lg-6 mb-2">
+        <div class="card text-center bg-light">
+          <figure class="mb-0">
+            <blockquote class="blockquote mb-0">
+              {% if project.project_image %}
               <img class="card-img-top" src="{{project.project_image}}">
-            {% endif %}
-        <h3 class="card-title mb-0 text-primary">{{project.project_name}}</h3>
-          </blockquote>
-          <p>{{project.description}}</p>
-	          <a href="{{project.github_url}}" class="btn btn-info">Github</a>
+              {% endif %}
+              <h3 class="card-title mb-0 text-primary">{{project.project_name}}</h3>
+            </blockquote>
+            <p>{{project.description}}</p>
+            <a href="{{project.github_url}}" class="btn btn-primary">Github</a>
             {% if project.pypi_url %}
-              <a href="{{project.pypi_url}}" class="btn btn-info">PyPi</a>
+            <a href="{{project.pypi_url}}" class="btn btn-warning">PyPi</a>
+            {% endif %}
+            {% if project.bot_invite %}
+            <a href="{{project.bot_invite}}" class="btn btn-warning">Invite in Server</a>
             {% endif %}
             {% if project.readthedocs_url %}
-              <a href="{{project.readthedocs_url}}" class="btn btn-info">Documentation</a>
+            <a href="{{project.readthedocs_url}}" class="btn btn-danger">Documentation</a>
             {% endif %}
             {% if project.project_tags %}
-              <p class="card-text mb-2"><small class="text-muted">{{project.project_tags}}</small></p>
+            <p class="card-text mb-2"><small class="text-muted">{{project.project_tags}}</small></p>
             {% endif %}
-        </figure>
+          </figure>
+        </div>
       </div>
+      {% endfor %}
     </div>
-  {% endfor %}
   </div>
 </div> <!-- Row closed-->
