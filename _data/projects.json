@@ -4,7 +4,17 @@
         "description": "Discord bot for the cybel community",
         "github_url": "https://github.com/Py-Contributors/cybel",
         "project_tags": "discord, bot, python, community",
-        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/cybel.jpg?raw=true"
+        "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/cybel.jpg?raw=true",
+        "readthedocs_url": "https://cybel.readthedocs.io/"
+    },
+    {
+        "project_name": "Sanatio",
+        "description": "Document, String, Number, Date, Email, Username, Password Validator for Python",
+        "github_url": "https://github.com/py-contributors/sanatio",
+        "project_tags": "python, validator, string, number, date, email, username, password",
+        "pypi_url": "https://pypi.org/project/sanatio/",
+        "project_image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hfde0z52hulo8kjjyo40.jpeg",
+        "readthedocs_url": "https://sanatio.readthedocs.io/"
     },
     {
         "project_name": "AudioBook",
@@ -13,7 +23,8 @@
         "project_tags": "python, audiobook, app",
         "pypi_name": "audiobook",
         "project_image" : "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/audiobook.jpg?raw=true",
-        "pypi_url": "https://pypi.org/project/audiobook/"
+        "pypi_url": "https://pypi.org/project/audiobook/",
+        "readthedocs_url": "https://audiobook.readthedocs.io/"
     },
     {
         "project_name": "Dataset-Convertor",
@@ -29,7 +40,8 @@
         "github_url": "https://github.com/Py-Contributors/RandomProfileGenerator",
         "project_tags": "python, random, profile, generator",
         "pypi_name": "random-profile",
-        "pypi_url": "https://pypi.org/project/random-profile/"
+        "pypi_url": "https://pypi.org/project/random-profile/",
+        "readthedocs_url": "https://randomprofilegenerator.readthedocs.io/"
     },
     {
         "project_name": "Website Cloner",
@@ -56,10 +68,11 @@
         "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/awesome-python-scripts.jpg?raw=true"
     },
     {
-        "project_name": "FileMoverGUI",
-        "description": "GUI tool to manage files smartly",
-        "github_url": "https://github.com/Py-Contributors/FileMoverGUI",
+        "project_name": "Movens",
+        "description": "CLI tool to manage files smartly",
+        "github_url": "https://github.com/Py-Contributors/Movens",
         "project_tags": "python, file, mover, gui",
+        "pypi_url": "https://pypi.org/project/movens/",
         "project_image": "https://github.com/DrakeEntity/project-Image/blob/master/py-contributors/projects/filemover.jpg?raw=true"   
     }
 ]

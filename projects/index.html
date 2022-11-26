@@ -17,29 +17,31 @@ active : projects
 
 <div class="row">
 	<div class="container">
-
 	<div class="row" data-masonry='{"percentPosition": true }'>
   {% for project in site.data.projects %}
-    <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card text-center text-info bg-dark p-3">
-        <figure class="p-3 mb-0">
+    <div class="col-sm-6 col-lg-6 mb-2">
+      <div class="card text-center bg-light">
+        <figure class="mb-0">
           <blockquote class="blockquote mb-0">
             {% if project.project_image %}
               <img class="card-img-top" src="{{project.project_image}}">
             {% endif %}
-        <h2 class="card-title mb-0 text-primary">{{project.project_name}}</h2>
-          </blockquote><p>{{project.description}}</p>
+        <h3 class="card-title mb-0 text-primary">{{project.project_name}}</h3>
+          </blockquote>
+          <p>{{project.description}}</p>
 	          <a href="{{project.github_url}}" class="btn btn-info">Github</a>
             {% if project.pypi_url %}
               <a href="{{project.pypi_url}}" class="btn btn-info">PyPi</a>
             {% endif %}
+            {% if project.readthedocs_url %}
+              <a href="{{project.readthedocs_url}}" class="btn btn-info">Documentation</a>
+            {% endif %}
             {% if project.project_tags %}
-              <p class="card-text"><small class="text-muted">{{project.project_tags}}</small></p>
+              <p class="card-text mb-2"><small class="text-muted">{{project.project_tags}}</small></p>
             {% endif %}
         </figure>
       </div>
     </div>
   {% endfor %}
   </div>
-
 </div> <!-- Row closed-->
