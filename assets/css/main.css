@@ -1,9 +1,11 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:wght@500&family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
 body {
     background: #C6FFDD;  /* fallback for old browsers */
 /* background: -webkit-linear-gradient(to right, #6DD5FA, #FBD786, #C6FFDD);  Chrome 10-25, Safari 5.1-6 */
 /* background: linear-gradient(to right, #6DD5FA, #FBD786, #C6FFDD); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-family: 'Oswald', sans-serif !important;
-	font-weight: 400;
+	/* font-family: 'Montserrat', sans-serif !important; */
+	/* font-weight: 400; */
    }
 
 .nav-item a::before
@@ -82,14 +84,14 @@ pre code
 }
 h1,h2,h3,h4,h5
 {
-	font-family: 'Passion One', cursive !important;
+	/* font-family: 'Ubuntu', cursive !important; */
 	font-weight:700;
 }
 nav {
-    font-family: 'Passion One', cursive !important;
-    font-weight: 600;
+    /* font-family: 'Ubuntu', sans-serif , cursive !important; */
+    font-weight: 400;
     font-size: 1.4rem;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     text-transform: uppercase;
 }
 .jumbotron, .bgCst
@@ -374,4 +376,40 @@ body{
 	{
 		font-size:2.5rem !important;
 	}
+}
+.main{
+  margin: 0;
+  padding: 0;
+}
+.title h1{
+  font-size: 60px;
+}
+
+.Para{
+  padding: 60px 130px;
+  text-align: center;
+}
+.para-h{
+  font-size: 60px;
+}
+
+.para-p{
+  font-size: 20px;
+}
+
+.text-center{
+  padding: 0 40px;
+}
+.btn:hover{
+  background-color:skyblue;
+}
+
+.back{
+  background-color: skyblue;
+  margin: 0;
+  color: white;
+}
+
+.foot{
+  padding: 40px;
 }

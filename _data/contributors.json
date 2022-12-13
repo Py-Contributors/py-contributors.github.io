@@ -24,5 +24,14 @@
     "email": "9876shivamyadav@gmail.com",
     "is_profile": true,
     "info": " Hey! I am a full stack developer with proficiency in Django. I am also an open-source enthusiast. I am skilled in Python, C++, HTML/CSS, Javascript, MongoDB,  and SQL. Check out my Github for more info."
+  },
+  {
+    "sn": 4,
+    "name": "Kritika Gupta",
+    "github": "Kritika30032002",
+    "email": "kritikagupta3003@gmail.com",
+    "is_profile": true,
+    "info": "I am a full stack web developer and also an open-source contributor. I am skilled in C, C++, HTML, CSS, Javascript, ReactJS, MongoDB, Mongoose, NodeJS, ExpressJS, API .To know
+    more about my work and experiences, Check out my GitHub account."
   }
 ]

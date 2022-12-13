@@ -1,26 +1,32 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 <section id="header" class=" p-2 mb-4">
     <div class="header container">
       <div class="nav-bar">
-	<div class="d-flex mx-auto">
+	<div class="d-flex">
 		<div class="brand">
-		 <h3 class="mainHeading"><a class="text-white" href="/"><img src="/assets/img/logo/logo.png" 
+		 <h3 class="mainHeading"><a class="text-white" href="/"><img src="/assets/img/logo/logo.png"
             style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py-Contributors</a></h3>
 		</div>
 	</div>
-   
+
+
+
 <div class="nav-list">
 	 <div class="hamburger mt-4">
-		<div class="line1"></div>
+		    <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
 	</div>
+
+
+
       <ul >
         {% if page.active == "home" %}
         <li class=" active"><a class="" href="/" data-after="Home">Home</a></li>
         {% else %}
             <li class=""><a class="" href="/" data-after="Home">Home</a></li>
         {% endif %}
-        
+
         {% if page.active == "projects" %}
             <li class=" active"><a class="" href="/projects/index.html" data-after="Join">Projects</a></li>
         {% else %}
@@ -44,9 +50,8 @@
             <li class=""><a class="" href="/community/index.html" data-after="Community">community</a></li>
         {% endif %}
         </ul>
+          </div>
             </div>
-            </div>
-        </div>
   </section>
 
 <script>
