@@ -368,7 +368,7 @@ body{
 	    border: 10px #343a40 solid;
 }
 .no-gutters img{
-	border-radius:10%;
+	border-radius:6%;
 	object-fit: contain;
 	object-position: top;
 }
