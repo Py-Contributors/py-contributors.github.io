@@ -369,6 +369,8 @@ body{
 }
 .no-gutters img{
 	border-radius:10%;
+	object-fit: contain;
+	object-position: top;
 }
 @media screen and (max-width:450px)
 {
