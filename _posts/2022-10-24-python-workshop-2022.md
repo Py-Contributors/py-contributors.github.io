@@ -4,6 +4,7 @@ title : Upcoming Python Workshop
 descriptions : 
 date : 2022-10-24
 author : Deepak Raj
+permalink : /:title
 image : https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png
 ---
 <div class="jumbotron text-light text-center p-4">
