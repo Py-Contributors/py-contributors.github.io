@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyContributors - Open Source Community</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center justify-between w-full">
+                    <!-- Logo and Brand Section -->
+                    <div class="flex-shrink-0 flex items-center space-x-4">
+                        <img class="h-10 w-auto" 
+                             src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" 
+                             alt="PyContributors Logo">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold text-gray-900">PyContributors</span>
+                            <span class="text-sm text-gray-500 hidden sm:block">Open Source Community</span>
+                        </div>
+                    </div>
+    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden sm:flex sm:space-x-8 items-center">
+                        <a href="/" 
+                           class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition-colors duration-200">
+                            Home
+                        </a>
+                        <a href="/jobs" 
+                           class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-blue-600 text-sm font-medium transition-colors duration-200">
+                            Jobs
+                        </a>
+                        <!-- Mobile Menu Button -->
+                        <button type="button" 
+                                class="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                                aria-controls="mobile-menu"
+                                aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="#" 
+                   class="bg-blue-50 border-blue-600 text-blue-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    Home
+                </a>
+                <a href="#about" 
+                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    About
+                </a>
+                <a href="#projects" 
+                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    Projects
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto px-4 py-6">
+        <h1 class="text-3xl font-bold mb-6">Current Job Openings</h1>
+        <div id="job-listings" class="space-y-4">
+            <!-- Job cards will be rendered here -->
+        </div>
+    </div>
+
+    <script>
+        // Define the path to the JSON file
+        const jsonFilePath = '/assets/data/job_openings.json';
+
+        // Fetch data from the JSON file and render job cards
+        fetch(jsonFilePath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const jobListingsContainer = document.getElementById('job-listings');
+
+                // Render each job listing
+                data.jobs.forEach(job => {
+                    const jobCard = document.createElement('div');
+                    jobCard.className = 'border rounded-lg shadow-md p-4';
+
+                    jobCard.innerHTML = `
+          <h2 class="text-xl font-semibold"><a href="/jobs/${job.id}" class="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">${job.title}</a></h2>
+          <p class="text-gray-700">Location: ${job.location}</p>
+          <p class="text-gray-700">Department: ${job.department}</p>
+          <p class="text-gray-700">Experience Required: ${job.experience}</p>
+          <p class="text-gray-700">Description: ${job.description}</p>
+          <p class="text-gray-700">Contact Email: <a href="mailto:${job.contactEmail}" class="text-blue-500 hover:underline">${job.contactEmail}</a></p>
+          <a href="${job.applyLink}" class="text-blue-500 hover:underline mt-2 inline-block" target="_blank" rel="noopener noreferrer">Apply Now</a>
+        `;
+
+                    jobListingsContainer.appendChild(jobCard);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching job data:', error);
+                const jobListingsContainer = document.getElementById('job-listings');
+                jobListingsContainer.innerHTML = '<p class="text-red-500">Failed to load job openings. Please try again later.</p>';
+            });
+    </script>
+
+    <style>
+        @import "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css";
+    </style>
+
+</body>
+
+</html>

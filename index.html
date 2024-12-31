@@ -14,6 +14,66 @@
     </style>
 </head>
 <body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center justify-between w-full">
+                    <!-- Logo and Brand Section -->
+                    <div class="flex-shrink-0 flex items-center space-x-4">
+                        <img class="h-10 w-auto" 
+                             src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" 
+                             alt="PyContributors Logo">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold text-gray-900">PyContributors</span>
+                            <span class="text-sm text-gray-500 hidden sm:block">Open Source Community</span>
+                        </div>
+                    </div>
+    
+                    <!-- Desktop Navigation -->
+                    <div class="hidden sm:flex sm:space-x-8 items-center">
+                        <a href="/" 
+                           class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-blue-600 text-sm font-medium transition-colors duration-200">
+                            Home
+                        </a>
+                        <a href="/jobs" 
+                           class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition-colors duration-200">
+                            Jobs
+                        </a>
+                        <!-- Mobile Menu Button -->
+                        <button type="button" 
+                                class="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                                aria-controls="mobile-menu"
+                                aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div class="sm:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="#" 
+                   class="bg-blue-50 border-blue-600 text-blue-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    Home
+                </a>
+                <a href="#about" 
+                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    About
+                </a>
+                <a href="#projects" 
+                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
+                    Projects
+                </a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
     <div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -25,15 +85,16 @@
                     An open source community empowering Python developers worldwide
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="https://discord.gg/JfbK3bS" class="inline-flex items-center justify-center bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-                        <i data-feather="message-circle" class="w-5 h-5 mr-2"></i>
-                        Join Discord
-                    </a>
                     <a href="https://github.com/Py-Contributors" class="inline-flex items-center justify-center bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
                         <i data-feather="github" class="w-5 h-5 mr-2"></i>
                         GitHub
                     </a>
+                    <a href="https://www.linkedin.com/company/pycontributors/" class="inline-flex items-center justify-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-500 transition-colors">
+                        <i data-feather="linkedin" class="w-5 h-5 mr-2"></i>
+                        LinkedIn
+                    </a>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -107,22 +168,20 @@
             </div>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-gray-50 rounded-xl p-6">
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Python Projects</h3>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Sanatio</h3>
                     <p class="text-gray-600 mb-4">
-                        From web applications to data science tools, contribute to various Python-based projects
-                        suitable for all skill levels.
+                        A Python library for data validation and sanitization, designed to simplify error handling in your code and ensure clean, robust data pipelines.
                     </p>
-                    <a href="#" class="text-blue-600 hover:text-blue-700 font-medium">
+                    <a href="https://github.com/codeperfectplus/Sanatio" class="text-blue-600 hover:text-blue-700 font-medium">
                         View Projects →
                     </a>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6">
-                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Machine Learning</h3>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Random Profile Generator</h3>
                     <p class="text-gray-600 mb-4">
-                        Work on exciting machine learning and AI projects, from basic algorithms to advanced
-                        neural networks.
+                        A utility package for generating random profiles, ideal for testing applications, populating dummy data, or experimenting with datasets.
                     </p>
-                    <a href="#" class="text-blue-600 hover:text-blue-700 font-medium">
+                    <a href="https://github.com/codeperfectplus/RandomProfileGenerator" class="text-blue-600 hover:text-blue-700 font-medium">
                         View Projects →
                     </a>
                 </div>
@@ -139,7 +198,7 @@
                     Join our community today and be part of something bigger. Whether you're a beginner
                     or an experienced developer, there's a place for you in PyContributors.
                 </p>
-                <a href="https://discord.gg/JfbK3bS" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                <a href="https://github.com/Py-Contributors" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
                     Get Started Today
                 </a>
             </div>
@@ -165,7 +224,7 @@
                 <div>
                     <h4 class="text-white font-semibold mb-4">Community</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="https://discord.gg/JfbK3bS" class="hover:text-white">Discord</a></li>
+                        <li><a href="https://www.linkedin.com/company/pycontributors/" class="hover:text-white">LinkedIn</a></li>
                         <li><a href="https://github.com/Py-Contributors" class="hover:text-white">GitHub</a></li>
                     </ul>
                 </div>

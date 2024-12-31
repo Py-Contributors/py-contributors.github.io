@@ -1,0 +1,15 @@
+{
+    "jobs": [
+      {
+        "id": "1",
+        "title": "Example Job",
+        "location": "India",
+        "department": "Engineering",
+        "experience": "3+ years",
+        "description": "Dummy Jon",
+        "contactEmail": "hr@example.com",
+        "applyLink": "https://example.com/apply/software-engineer"
+      }
+    ]
+  }
+  
