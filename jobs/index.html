@@ -18,64 +18,41 @@
 
 <body class="bg-gray-50">
     <!-- Navbar -->
-    <nav class="bg-white shadow-sm">
+    <nav class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center justify-between w-full">
                     <!-- Logo and Brand Section -->
                     <div class="flex-shrink-0 flex items-center space-x-4">
-                        <img class="h-10 w-auto" 
-                             src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" 
-                             alt="PyContributors Logo">
+                        <img class="h-10 w-auto"
+                            src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png"
+                            alt="PyContributors Logo">
                         <div class="flex flex-col">
                             <span class="text-xl font-bold text-gray-900">PyContributors</span>
                             <span class="text-sm text-gray-500 hidden sm:block">Open Source Community</span>
                         </div>
                     </div>
-    
+
                     <!-- Desktop Navigation -->
                     <div class="hidden sm:flex sm:space-x-8 items-center">
-                        <a href="/" 
-                           class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition-colors duration-200">
+                        <a href="/"
+                            class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
                             Home
                         </a>
-                        <a href="/jobs" 
-                           class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-blue-600 text-sm font-medium transition-colors duration-200">
+                        <a href="/jobs"
+                            class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200">
                             Jobs
                         </a>
-                        <!-- Mobile Menu Button -->
-                        <button type="button" 
-                                class="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                                aria-controls="mobile-menu"
-                                aria-expanded="false">
-                            <span class="sr-only">Open main menu</span>
-                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
+                        <a href="https://github.com/Py-Contributors"
+                            class="inline-flex items-center justify-center bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                            Join Community
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <!-- Mobile Menu -->
-        <div class="sm:hidden" id="mobile-menu">
-            <div class="pt-2 pb-3 space-y-1">
-                <a href="#" 
-                   class="bg-blue-50 border-blue-600 text-blue-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
-                    Home
-                </a>
-                <a href="#about" 
-                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
-                    About
-                </a>
-                <a href="#projects" 
-                   class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium transition-colors duration-200">
-                    Projects
-                </a>
-            </div>
-        </div>
     </nav>
+
     <div class="container mx-auto px-4 py-6">
         <h1 class="text-3xl font-bold mb-6">Current Job Openings</h1>
         <div id="job-listings" class="space-y-4">
