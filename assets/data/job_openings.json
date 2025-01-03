@@ -1,15 +1,114 @@
 {
-    "jobs": [
-      {
-        "id": "1",
-        "title": "Example Job",
-        "location": "India",
-        "department": "Engineering",
-        "experience": "3+ years",
-        "description": "Dummy Jon",
-        "contactEmail": "hr@example.com",
-        "applyLink": "https://example.com/apply/software-engineer"
-      }
-    ]
-  }
-  
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Python Developer",
+      "location": "India",
+      "department": "Engineering",
+      "experience": "2 to 5 years",
+      "description": "Join our engineering team as a Python Developer and work on cutting-edge technologies.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Python%20Developer"
+    },
+    {
+      "id": "2",
+      "title": "Python Lead",
+      "location": "India",
+      "department": "Engineering",
+      "experience": "5 to 7 years",
+      "description": "Lead a team of Python developers and drive technical excellence.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Python%20Lead"
+    },
+    {
+      "id": "3",
+      "title": "Data Scientist",
+      "location": "India",
+      "department": "Data Science",
+      "experience": "3 to 5 years",
+      "description": "Analyze data and build machine learning models to drive business insights.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Data%20Scientist"
+    },
+    {
+      "id": "4",
+      "title": "Paid Marketing Specialist",
+      "location": "India",
+      "department": "Marketing",
+      "experience": "8 to 10 years",
+      "description": "Plan and execute paid marketing campaigns to boost brand visibility.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Paid%20Marketing%20Specialist"
+    },
+    {
+      "id": "5",
+      "title": "Graphics + UI Designer",
+      "location": "India",
+      "department": "Design",
+      "experience": "3 to 5 years",
+      "description": "Design visually stunning graphics and user interfaces for our products.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Graphics%20+%20UI%20Designer"
+    },
+    {
+      "id": "6",
+      "title": "UI/UX Designer",
+      "location": "India",
+      "department": "Design",
+      "experience": "3 to 5 years",
+      "description": "Create intuitive user experiences and designs for web and mobile platforms.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20UI/UX%20Designer"
+    },
+    {
+      "id": "7",
+      "title": "Motion Graphics Designer (Video)",
+      "location": "India",
+      "department": "Design",
+      "experience": "3 to 5 years",
+      "description": "Create compelling motion graphics and video content for marketing campaigns.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Motion%20Graphics%20Designer%20(Video)"
+    },
+    {
+      "id": "8",
+      "title": "Creative Manager",
+      "location": "India",
+      "department": "Creative",
+      "experience": "5 to 8 years",
+      "description": "Oversee and inspire a team of creatives to produce exceptional work.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Creative%20Manager"
+    },
+    {
+      "id": "9",
+      "title": "Social Media Marketing Specialist",
+      "location": "India",
+      "department": "Marketing",
+      "experience": "3 to 5 years",
+      "description": "Manage social media platforms and create engaging content to grow our brand.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Social%20Media%20Marketing%20Specialist"
+    },
+    {
+      "id": "10",
+      "title": "Technical Content Writer",
+      "location": "India",
+      "department": "Content",
+      "experience": "3 to 6 years",
+      "description": "Write high-quality technical content to educate and inform our audience.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Technical%20Content%20Writer"
+    },
+    {
+      "id": "11",
+      "title": "Senior DevOps Engineer",
+      "location": "India",
+      "department": "Engineering",
+      "experience": "5 to 8 years",
+      "description": "Ensure robust and scalable deployment pipelines for our software systems.",
+      "contactEmail": "deepak.raj@scryai.com",
+      "applyLink": "mailto:deepak.raj@scryai.com?subject=Application%20for%20Senior%20DevOps%20Engineer"
+    }
+  ]
+}
